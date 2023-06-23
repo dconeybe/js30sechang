@@ -1,0 +1,7 @@
+/.idea/
+/build/
+/node_modules/
+
+# Ignore files created by the Firestore emulator
+firestore-debug.log
+ui-debug.log
