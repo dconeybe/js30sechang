@@ -92,6 +92,8 @@ public final class Main {
     }
   }
 
+  // This code is adapted from
+  // jdk-17.0.6+10/lib/src.zip!/java.base/sun/net/dns/ResolverConfigurationImpl.java
   private static ArrayList<String> loadNameserversFromResolvConf() throws IOException {
     ArrayList<String> nameServers = new ArrayList<>();
     System.out.println("zzyzx loading /etc/resolv.conf started");
